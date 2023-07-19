@@ -333,7 +333,7 @@ footer{
 .img-container img{
     display: block;
     width: 100%;
-    filter: brightness(30%);
+    filter: brightness(80%);
  
    
 }
@@ -347,7 +347,7 @@ footer{
 }
 .img-container .play-icon{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
@@ -356,13 +356,13 @@ footer{
 }
 
 .tool{
-    visibility: hidden;
+    /* visibility: hidden; */
     color: red;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%);
     opacity: 0;
@@ -377,28 +377,46 @@ footer{
     padding: 10px;
     margin: 10px;
 }
-
-
-
-
-
-/* .another-img{
+/* ----- */
+.online img img{
+    width: 100%;
+}
+.play-icon{
+    background-color: #fff;
+    color: transparent;
+    border-radius: 50%;
     position: relative;
-    bottom: 140px;
-    right: -220px;
+    top: -290px;
+    left: 110px;
+    visibility: hidden;
+   
 }
-.another-img img{
-    width: 50%;
+.watch-now-tag{
+  
+    color: red;
+    position: relative;
+    padding: 10px;
+    top: -250px;
+    left: 40px;
+    visibility: hidden;
+}
+.online-img img:hover{
+    filter: brightness(20%);
+    border: 5px solid #f01687;
+    border-radius: 20px;
+    visibility: visible;
+}
+.online-img:hover .play-icon,
+.online-img:hover .watch-now-tag {
+visibility: visible;
+transition: 2s ease ease-out;
 }
 
-.play-text1{
-   margin-left:  70px;
-} */
 
 
-/* .hide{
-    display: block;
-} */
+
+
+
 
 
 
@@ -551,23 +569,24 @@ footer{
     font-size: 18px;
 
 }
-
-
-
-
-
-
-/* .content{
-    flex-direction: column-reverse;
-}
-.another-img{
-    position: relative;
-    bottom: 100px;
+.play-icon{
+ 
+    top: -290px;
+    left: 130px;
+   
    
 }
-.play-text1{
-   width: 80%;
- } */
+.watch-now-tag{
+  
+
+    top: -250px;
+    left: 50px;
+  
+}
+
+
+
+
 
  
 
@@ -720,5 +739,20 @@ footer{
         text-align: center;
         font-size: 18px;
     
+    }
+
+    .play-icon{
+ 
+        top: -290px;
+        left: 140px;
+       
+       
+    }
+    .watch-now-tag{
+      
+    
+        top: -250px;
+        left: 50px;
+      
     }
 }
