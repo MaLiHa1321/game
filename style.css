@@ -6,6 +6,9 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
   }
+  p{
+    color: #534C64;
+  }
   nav{
     padding: 20px;
     background: #FFF;
@@ -89,7 +92,7 @@ padding: 10px;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-weight: 900;
+font-weight: bolder;
 font-size: 3.5rem;
 }
 .banner-btn1{
@@ -100,6 +103,7 @@ font-size: 3.5rem;
     margin: 10px;
     color: #fff;
     font-size: 1rem;
+    width: 40%;
  
 }
 .banner-btn2{
@@ -113,6 +117,7 @@ color: #fff;
 .gammer{
     width: 80%;
     margin: 0 auto;
+    background-color: #f5f0f3;
 }
 .gammer-container{
     display: flex;
@@ -256,8 +261,15 @@ color: #F948B2;
 .cate-content:hover{
     border-radius: 50px;
 background: #FFF; 
-border: 1px solid rgb(21, 221, 211);
+border: 1px solid #f01687;
+
 }
+.cate-content:hover p {
+    border-radius: 50px;
+    background: #FFF;
+    color: #f01687;
+  }
+  
 .cate-content-card{
     display: flex;
     justify-content: space-around;
@@ -299,6 +311,7 @@ footer{
     
     
 }
+
 .footer-links li{
     list-style: none;
     padding: 20px;
@@ -341,6 +354,7 @@ footer{
     border-radius: 50%;
     cursor: pointer;
 }
+
 .tool{
     visibility: hidden;
     color: red;
@@ -359,7 +373,10 @@ footer{
     visibility: visible;
     opacity: 1;
 }
-
+.banner-para{
+    padding: 10px;
+    margin: 10px;
+}
 
 
 
@@ -402,8 +419,11 @@ footer{
 .banner-container{
     flex-direction: column-reverse;
 }
+.banner-back{
+    width: 100%;
+}
 .banner-img {
-    width: 50%;
+    width: 70%;
    
 }
 .gammer{
@@ -430,6 +450,9 @@ footer{
     width: 80%;
     font-size: 20px;
 }
+.online-head{
+    font-size: 2rem;
+}
 .play{
     width: 90%;
   
@@ -440,6 +463,10 @@ footer{
 .play-img {
     width: 80%;
     padding: 10px;
+}
+.play-para{
+    width: 90%;
+    
 }
 .rect{
     position: relative;
@@ -461,7 +488,17 @@ footer{
     width: 90%;
    
 }
+.cate-content:hover{
+    border-radius: 50px;
+background: #FFF; 
+border: 1px solid #f01687;
 
+}
+.cate-content:hover p {
+    border-radius: 50px;
+    background: #FFF;
+    color: #f01687;
+  }
 .categories-container{
    
     grid-template-columns: repeat(3,1fr);
@@ -483,7 +520,7 @@ footer{
 .cate-content:hover{
     border-radius: 48px;
 background: #FFF; 
-border: 1px solid rgb(21, 221, 211);
+border: 1px solid #f01687;
 }
 footer{
    
@@ -550,10 +587,13 @@ footer{
        
     }
     .banner-container{
-        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-back{
+        width: 80%;
     }
     .banner-img {
-        width: 50%;
+        width: 80%;
        
     }
     .gammer{
@@ -580,6 +620,7 @@ footer{
         width: 80%;
         font-size: 20px;
     }
+   
     .play{
         width: 90%;
       
@@ -591,7 +632,10 @@ footer{
         width: 80%;
         padding: 10px;
     }
-  
+    .play-para{
+        width: 90%;
+        
+    }
     .rect{
         position: relative;
         bottom: 140px;
@@ -635,11 +679,18 @@ footer{
        
         
      }
+   
      .cate-content:hover{
-         border-radius: 48px;
-     background: #FFF; 
-     border: 1px solid rgb(21, 221, 211);
-     }
+        border-radius: 48px;
+    background: #FFF; 
+    border: 1px solid #f01687;
+    
+    }
+    .cate-content:hover p {
+        border-radius: 50px;
+        background: #FFF;
+        color: #f01687;
+      }
 
      footer{
    
